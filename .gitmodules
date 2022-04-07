@@ -1,0 +1,3 @@
+[submodule "themes/googoraa-hugo-theme"]
+	path = themes/googoraa-hugo-theme
+	url = git@github.com:Googoraa/googoraa-hugo-theme.git
