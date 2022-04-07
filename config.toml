@@ -1,0 +1,15 @@
+BaseURL = "https://googoraa.github.io/"
+languageCode = "en-us"
+title = "Googoraa"
+theme = "googoraa-hugo-theme"
+paginate = 20
+disqusShortname = "googoraa"
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[params]
+    description = "Everything related to Computer"
+    gravatar = "76070efc166f53a9ca25f8ff7b5ccd5d"
+    # Google Analytics 4
+    googleAnalyticsID = "G-GR2RY1GHZE"
