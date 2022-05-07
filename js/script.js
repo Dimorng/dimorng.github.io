@@ -1,6 +1,6 @@
-const footerCredit = document.querySelector("footer [data-footer-credit]")
+const currentYearOnFooter = document.querySelector("footer [data-current-year]")
 const currentYear = new Date().getUTCFullYear()
-footerCredit.textContent = `${currentYear} @ Googoraa`
+currentYearOnFooter.textContent = currentYear
 // test code
 
 // mobile hamburgerIcon
