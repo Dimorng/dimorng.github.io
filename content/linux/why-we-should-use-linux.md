@@ -6,7 +6,7 @@ date: 2021-02-26T10:20:29+07:00
 update: false
 
 f_image: img/feature-img-why-we-should-use-Linux.jpg
-draft: false
+draft: true
 katex: false
 categories: 
     - Linux

@@ -6,7 +6,7 @@ date: 2020-09-22T09:59:04+07:00
 update: false
 
 f_image: img/feature-img-medicalTerminology.jpg
-draft: true
+draft: false
 katex: false
 categories: 
     - ពីនេះពីនោះ

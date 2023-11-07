@@ -9,7 +9,7 @@ f_image: img/what-is-BitTorrent-feature-img.jpg
 draft: false
 katex: false
 categories:
-  - Linux
+  - ពីនេះពីនោះ
 
 tags:
   - BitTorrent

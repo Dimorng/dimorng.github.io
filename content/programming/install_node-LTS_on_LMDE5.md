@@ -6,7 +6,7 @@ date: 2022-04-06T16:46:25+07:00
 update: false
 
 f_image: img/feature-img-install_node-LTS_on_LMDE5.png
-draft: false
+draft: true
 katex: false
 categories:
   - Programming

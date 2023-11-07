@@ -6,7 +6,7 @@ date: 2022-03-28T18:27:12+07:00
 update: false
 
 f_image: img/feature-img-lm_iso_verification.jpg
-draft: false
+draft: true
 katex: false
 categories:
   - Linux

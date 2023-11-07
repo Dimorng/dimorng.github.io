@@ -6,7 +6,7 @@ date: 2021-03-19T13:01:16+07:00
 update: false
 
 f_image: img/linux-mint-feature-img.jpg
-draft: false
+draft: true
 katex: false
 categories: 
     - Linux

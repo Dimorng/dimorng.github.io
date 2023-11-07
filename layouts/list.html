@@ -1,0 +1,124 @@
+{{ define "main" }}
+
+<!-- ALL BLOG POST
+<section>
+  <h2 class="section_header">{{ partial "svg/new_articles.svg" }} ALL Blog Post</h2>
+  <div class="cards">
+    {{ range .Paginator.Pages }}
+    
+    <div class="card">
+      <div class="img_container">
+        
+        <img src="{{ .Site.BaseURL }}{{ .Params.f_image }}" alt='Feature image for "{{ .Title }}" article.'>
+        <div class="date">
+          <div><time datetime='{{ dateFormat "Monday, 2 January 2006" .Date }}'>{{ dateFormat "Monday, 2 January 2006" .Date }}</time></div>
+        </div>
+      </div>
+      <div class="card_contain">
+        <div class="card_tag">
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+          {{ end }}
+        </div>
+
+        <div class="card_title">{{ .Title }}</div>
+      </div>
+      <a href="{{ .Page.Permalink }}" class="card_link"></a>
+    </div>
+    {{ end }}
+  </div>
+  {{ partial "pagination.html" . }}
+</section>
+ ========================================== -->
+
+<!-- UNCOMMENT TO CATEGORIZE BOLG POST  -->
+<section>
+  <h2 class="section_header">{{ partial "svg/new_articles.svg" }} អត្ថបទ​</h2>
+  <div class="cards">
+    {{ range first 10 .Site.RegularPages }}
+    <div class="card">
+      <div class="img_container">
+        
+        <img src="{{ .Params.f_image }}" alt='Feature image for "{{ .Title }}" article.'>
+        <div class="date">
+          <div><time datetime='{{ dateFormat "Monday, 2 January 2006" .Date }}'>{{ dateFormat "Monday, 2 January 2006" .Date }}</time></div>
+        </div>
+      </div>
+      <div class="card_contain">
+        <div class="card_tag">
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+          {{ end }}
+        </div>
+
+        <div class="card_title">{{ .Title }}</div>
+      </div>
+      <a href="{{ .Page.Permalink }}" class="card_link"></a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<!-- {{ with .Site.GetPage "section" "linux" }}
+<section>
+  <h2 class="section_header">{{ partial "svg/linux_icon.svg" }} LINUX</h2>
+  <div class="cards">
+    {{ range first 4 .Pages }}
+    <div class="card">
+      <div class="img_container">
+        
+        <img src="{{ .Params.f_image }}" alt='Feature image for "{{ .Title }}" article.'>
+        <div class="date">
+          <div><time datetime='{{ dateFormat "Monday, 2 January 2006" .Date }}'>{{ dateFormat "Monday, 2 January 2006" .Date }}</time></div>
+        </div>
+      </div>
+      <div class="card_contain">
+        <div class="card_tag">
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+          {{ end }}
+        </div>
+
+        <div class="card_title">{{ .Title }}</div>
+      </div>
+      <a href="{{ .Page.Permalink }}" class="card_link"></a>
+    </div>
+    {{ end }}
+  </div>
+  <div class="more_articles"><a href="{{ .Permalink }}"><i>ច្រើន​ទៀត</i> →</a></div>
+</section>
+{{ end }} -->
+
+<!--
+{{ with .Site.GetPage "section" "ot" }}
+<section>
+  <h2 class="section_header">{{ partial "svg/other_topic.svg" }} ពី​នេះ​ពី​នោះ​</h2>
+  <div class="cards">
+    {{ range first 4 .Pages }}
+    <div class="card">
+      <div class="img_container">
+        
+        <img src="{{ .Params.f_image }}" alt='Feature image for "{{ .Title }}" article.'>
+        <div class="date">
+          <div><time datetime='{{ dateFormat "Monday, 2 January 2006" .Date }}'>{{ dateFormat "Monday, 2 January 2006" .Date }}</time></div>
+        </div>
+      </div>
+      <div class="card_contain">
+        <div class="card_tag">
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+          {{ end }}
+        </div>
+
+        <div class="card_title">{{ .Title }}</div>
+      </div>
+      <a href="{{ .Page.Permalink }}" class="card_link"></a>
+    </div>
+    {{ end }}
+  </div>
+  <div class="more_articles"><a href="{{ .Permalink }}"><i>ច្រើន​ទៀត</i> →</a></div>
+</section>
+{{ end }}
+ ========================== -->
+
+{{ end }}

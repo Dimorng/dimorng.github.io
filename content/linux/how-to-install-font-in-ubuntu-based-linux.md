@@ -14,7 +14,7 @@ author: dimorng
 disqus: "enable"
 spport: "enable"
 
-draft: false
+draft: true
 
 f_image: img/how-to-install-font-in-ubuntu-based-linux-fm-min.png
 ---

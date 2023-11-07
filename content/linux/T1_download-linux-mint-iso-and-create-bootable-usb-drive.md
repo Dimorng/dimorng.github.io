@@ -6,7 +6,7 @@ date: 2022-03-25T19:50:00+07:00
 update: true
 
 f_image: img/T1_download-linux-mint-iso-and-create-bootable-usb-drive-fm.jpg
-draft: false
+draft: true
 katex: false
 categories:
   - Linux
