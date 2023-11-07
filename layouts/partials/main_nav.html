@@ -1,0 +1,17 @@
+<ul class="main_nav" id="js-menu">
+    <li>
+      <a href="{{ .Site.BaseURL }}dentistry/" class='{{ if eq .Section "dentistry" }}active{{ end }}'>ទន្តសាស្ត្រ</a>
+    </li>
+    <!--<li>
+      <a href="{{ .Site.BaseURL }}linux/" class='{{ if eq .Section "linux" }}active{{ end }}'>លីនុច</a>
+    </li>
+    <li>
+       <a href="{{ .Site.BaseURL }}programming/" class='{{ if eq .Section "programming" }}active{{ end }}'>Programming</a>
+    </li>
+    <li>
+      <a href="{{ .Site.BaseURL }}ot/" class='{{ if eq .Section "ot" }}active{{ end }}'>ពី​នេះ​ពី​នោះ​</a>
+    <li>-->
+    <li>
+      <a href="{{ .Site.BaseURL }}about/" class='{{ with .Params.about }}active{{ end }}'>About</a>
+    </li>
+</ul>
