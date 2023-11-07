@@ -1,4 +1,4 @@
-BaseURL = "https://googoraa.github.io/"
+BaseURL = "/"
 languageCode = "en-us"
 title = "Googoraa"
 theme = "googoraa-hugo-theme"
