@@ -1,6 +1,6 @@
 BaseURL = "/"
 languageCode = "en-us"
-title = "Dr. Dimorng MEUNG"
+title = "Dr. Dimorng MEUNG (DDS)"
 theme = "googoraa-hugo-theme"
 paginate = 20
 disqusShortname = "googoraa"
