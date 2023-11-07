@@ -1,6 +1,6 @@
 ---
 title: "​សួស្តី ! ស្វាគមន៍​មក​កាន់ Blog របស់​ខ្ញុំ !"
-description: "Brief Description about Googoraa & Me"
+description: "តើ​ខ្ញុំ​បង្កើត​ Blog នេះ​ដើម្បី​អ្វី ?"
 about: true
 
 date: 2023-11-07
