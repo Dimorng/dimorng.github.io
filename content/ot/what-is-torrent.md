@@ -41,11 +41,11 @@ BitTorrent Protocol ដែល​យើង​ច្រើន​នាំគ្ន
 
 {{< imgWCap `what-is-BitTorrent-qBitTorrent.jpg` `qBitTorrent User Interface` `qBitTorrent User Interface` >}}
 
-{{< dwFW qBitTorrent `https://www.qbittorrent.org/download.php` >}}
+{{< dwWeb `qBitTorrent` `https://www.qbittorrent.org/download.php` >}}
 
 ចំពោះ​ អ្នក​ប្រើ​ Ubuntu​ based distro រួម​មាន​ Linux Mint, …
 
-{{< dwFSM qBitTorrent `qbittorrent` >}}
+{{< dwAppUbuntu qBitTorrent `qbittorrent` >}}
 
 ### 2. {{< link Transmission `https://transmissionbt.com/` >}}
 
@@ -55,7 +55,7 @@ BitTorrent Protocol ដែល​យើង​ច្រើន​នាំគ្ន
 
 បើ​ Ubuntu​ based distro ដែល​អ្នក​ប្រើ​មិន​ទាន់​មាន​ Transmission installed ទេ ៖
 
-{{< dwFSM `Transmission` `transmission` >}}
+{{< dwAppUbuntu `Transmission` `transmission` >}}
 
 ### 3. {{< link `Deluge` `https://deluge-torrent.org/` >}}
 
@@ -63,11 +63,11 @@ BitTorrent Protocol ដែល​យើង​ច្រើន​នាំគ្ន
 
 {{< imgWCap `what-is-BitTorrent-deluge-from-omg-ubuntu.jpg` `Deluge User Interface` `Deluge User Interface (from omg! ubuntu)` >}}
 
-{{< dwFW `Deluge` `https://dev.deluge-torrent.org/wiki/Download` >}}
+{{< dwWeb `Deluge` `https://dev.deluge-torrent.org/wiki/Download` >}}
 
 ចំពោះ​អ្នក​ប្រើ​ Ubuntu based distro:
 
-{{< dwFSM `Deluge` `deluge` >}}
+{{< dwAppUbuntu `Deluge` `deluge` >}}
 
 ### 4. Flud
 
@@ -75,7 +75,7 @@ BitTorrent Protocol ដែល​យើង​ច្រើន​នាំគ្ន
 
 {{< imgWCap `what-is-BitTorrent-Flud-UI.png` `Flud User Interface` `Flud User Interface` >}}
 
-{{< android `Flud` `https://play.google.com/store/apps/details?id=com.delphicoder.flud` >}}
+{{< dwAppAndriod `Flud` `https://play.google.com/store/apps/details?id=com.delphicoder.flud` >}}
 
 ## Torrent File
 
