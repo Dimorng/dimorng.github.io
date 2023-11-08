@@ -30,7 +30,7 @@ spport: "enable"
     <br/><b>កាល​បរិច្ចេទ​ចេញ​ផ្សាយ ៖</b>  version 1.0 នៅ​ថ្ងៃ​ ០៩ មេសា ១៩៩៤
 </div>
 
-{{< dwF `http://www.khmerfonts.info/fontinfo.php?font=1293` >}}
+{{< dwWeb `http://www.khmerfonts.info/fontinfo.php?font=1293` >}}
 
 <h2 style="text-align:center; font-family:'lato', 'Angkor Sovann Round_01'; font-weight:normal; margin-top:40px; border-bottom:1px solid #d5ffff; color: #d5ffff;">អក្ខរក្រម​ភាសាខ្មែរ​</h2>
 

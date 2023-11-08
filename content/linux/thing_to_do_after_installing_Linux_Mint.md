@@ -20,7 +20,7 @@ disqus: "enable"
 spport: "enable"
 ---
 
-## {{< colorText `Update the system` >}}
+## Update the system
 
 ជាការពិតរឿង​ ដែល​អ្នក​**ត្រូវតែធ្វើ**ដំបូង​បង្អស់គឺ **Update System** ។
 
@@ -43,4 +43,4 @@ _តើ update តាមរបៀបណា ?_
 sudo apt update && sudo apt upgrade
 ```
 
-## {{< colorText `Install រួច Activate` >}} `tlp` {{< colorText `និង` >}} `tlp-rdw`
+## Install រួច Activate tlp និង tlp-rdw

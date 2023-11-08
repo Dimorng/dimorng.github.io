@@ -57,4 +57,4 @@ $$
 $$\left( \frac{2y-3x}{18} \right) \left( \frac{2y+3x}{2} \right) = 1$$
 បង្ហាញ​ថា​សមីការ​នេះ​ជា​អ៊ីពែបូល រួច​រក​កូអរដោនេ​នៃ​កំពូល​ទាំង 2  និង​កំណុំ​ទាំង​ 2  ។ រក​​សមីការ​អាស៊ីមតូត​ទ្រេត​របស់​វា រួច​សង់​អ៊ីពែប៉ូល​នេះ ៕
 
-{{< pdf `1cM67P8MbpK98WhOOnnu-QvFBUJDLopZJ` >}}
+{{< dwPdfGdrive `1cM67P8MbpK98WhOOnnu-QvFBUJDLopZJ` >}}
