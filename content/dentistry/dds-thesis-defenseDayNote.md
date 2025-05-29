@@ -5,7 +5,7 @@ description: "pageDescription"
 date: 2025-05-29T11:55:42+07:00
 update: false
 
-f_image: img/
+f_image: img/ushThesisTip.jpg
 draft: false
 katex: false
 categories:
